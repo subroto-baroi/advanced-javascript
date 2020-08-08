@@ -1,17 +1,17 @@
 // global and local scope
 
-// let num = 30;   // global scope call to any where in the page.
-// function sum(first, second) {
-//     let result =first + second + num; // local scope call to only in the function.
-//     console.log(result);
-//     console.log(num);
+let num = 30;                   // global scope call to any where in the page.
+function sum(first, second) {
+    let result =first + second + num; // local scope call to only in the function.
+    console.log(result);
+    console.log(num);
 
-//     return result;
+    return result;
     
-// }
-// const output =sum(20,30);
-// console.log(num)
-// console.log(output);
+}
+const output =sum(20,30);
+console.log(num)
+console.log(output);
 
 
 // another example
